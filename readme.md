@@ -26,7 +26,8 @@ Página de cadastro:
 
 
 Página home:
-![image](https://user-images.githubusercontent.com/91575045/211344581-19068f15-11cb-4ad0-a3a8-719142f3b5b0.png)
+![image](https://user-images.githubusercontent.com/91575045/211346542-b39f718c-c517-405a-af77-202c7f31373f.png)
+
 
 
 Página de preview da Filme:
