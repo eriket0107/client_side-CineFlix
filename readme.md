@@ -2,8 +2,10 @@
 Para usar o backend:
 ### https://github.com/eriket0107/server-side_CineFlix
 
+<hr>
 
-
+## Site em produção
+https://cineflixapp.netlify.app/
 
 <p align="center">
   <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=49AA26&labelColor=000000">
