@@ -40,6 +40,7 @@ Página de criar nota:
 ![image](https://user-images.githubusercontent.com/91575045/211342957-0ff0bbf9-7e32-490a-a5d3-1e1b0fe38f0d.png)
 
 Place Holde das Imagens: 
+ <br>
 ![image](https://user-images.githubusercontent.com/91575045/211344750-77a773bf-bf6a-40d0-adb6-c1c545e6ca4f.png)
 ![image](https://user-images.githubusercontent.com/91575045/211344807-f6c48488-a413-44b5-91bb-03339aa77ed2.png)
 
