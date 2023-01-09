@@ -51,6 +51,9 @@ export function Details(){
   }
 
   async function handleSaveCover(){
+    if(!coverFile){
+      return alert('Insira uma imagem para poder salvar a capa.')
+    }
     const fileUploadForm = new FormData()
     fileUploadForm.append("cover", coverFile)
     await api.patch(`/movies/${params.id}/cover`, fileUploadForm)
