@@ -1,6 +1,6 @@
 <h1 align="center"> RocketMovies </h1>
 
-> Stage 09: Frontend - Explorer
+> Stage 10: Frontend/Backend -> API RESTful
 
 
 <p align="center">
