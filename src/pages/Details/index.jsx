@@ -35,10 +35,12 @@ export function Details(){
   }
 
   async function handleDelete(){
-    navigate(-1)
-    await api.delete(`movies/${params.id}`)
-    alert('Filme excluído com sucesso!')
-
+    const toDelete = confirm('Deseja excluír o filme?')
+    if(toDelete){
+      await api.delete(`movies/${params.id}`)
+      alert('Filme excluído com sucesso!')
+    }
+    navigate('/')
   }
   function handleCoverPreview(event){
     const filePath = event.target.files[0]
