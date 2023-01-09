@@ -25,6 +25,9 @@ export function NewMovie(){
 
 
   function handleAddTag(){
+    if(!newTag){
+      return alert('Não é possível colocar tags vazias.')
+    }
     setTags(prevState => [...prevState, newTag])
     setNewTag('')
   }
@@ -46,8 +49,9 @@ export function NewMovie(){
     }
 
     if(newTag){
-      return alert('Existem informações para serem salvas na tag.')
+      return alert('Existem informações para serem salvas na tag .')
     }
+
 
     await api.post('/movies', {
       title, 
