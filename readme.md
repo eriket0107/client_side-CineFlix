@@ -5,7 +5,6 @@ Para usar o backend:
 <hr>
 
 ## Site em produção
-<br>
 https://cineflixapp.netlify.app/
 
 <p align="center">
