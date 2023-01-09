@@ -13,7 +13,7 @@ import { Rating } from "@mui/material";
 import { api } from "../../services/api";
 import { ImStarFull, ImStarEmpty } from "react-icons/im"
 import { useNavigate, useParams } from "react-router-dom";
-import { FiClock, FiArrowLeft, FiTrash2, FiUpload} from "react-icons/fi"
+import { FiClock, FiArrowLeft, FiTrash2, FiUpload, FiUser} from "react-icons/fi"
 
 
 export function Details(){
@@ -29,6 +29,10 @@ export function Details(){
   const[cover, setCover] = useState(null)
   const[coverFile, setCoverFile] = useState('')
   const movieURL =  movie.cover ? `${api.defaults.baseURL}/files/${movie.cover} ` : cover
+
+  const avatarURL = user.avatar ? `${api.defaults.baseURL}/files/${user.avatar} ` : null
+  const [avatar, setAvatar] = useState(avatarURL)
+
 
   function handleBackNavigation(){
     navigate(-1)
@@ -100,7 +104,7 @@ export function Details(){
                 </MovieRating>
 
                 <TimeStap>
-                  <img src="https://github.com/eriket0107.png" alt="" />
+                  {avatarURL ? <img src={avatar} alt="" /> : <FiUser/> }
                   Por {user.name}
                   <span><FiClock/></span>
                   <span>{movieDate}</span>
