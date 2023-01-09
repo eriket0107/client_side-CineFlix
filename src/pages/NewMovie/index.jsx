@@ -14,17 +14,15 @@ import { useNavigate } from "react-router-dom"
 import { api } from "../../services/api"
 
 export function NewMovie(){
+  const navigation = useNavigate()
 
   const [tags, setTags] = useState([])
   const [newTag, setNewTag] = useState('')
-
 
   const [title, setTitle] = useState('')
   const [stars, setStars] = useState('')
   const [description, setDescription] = useState('')
 
-  const [cover, setCover] = useState('')
-  const navigation = useNavigate()
 
   function handleAddTag(){
     setTags(prevState => [...prevState, newTag])
@@ -58,6 +56,7 @@ export function NewMovie(){
       tags
     })
 
+    alert('Filme cadastrado com sucesso!')
     navigation('/')
   }
   return(
