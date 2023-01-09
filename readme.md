@@ -12,6 +12,9 @@
 Frontend do projeto RocketMovies. <br>
 Aplicação para acompanhar tudo que assistir.
 
+### Para rodar o projeto Front:
+npm run dev
+
 ## :page_with_curl: Páginas
 
 Página de login:
