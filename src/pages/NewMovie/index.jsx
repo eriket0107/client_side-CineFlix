@@ -20,9 +20,8 @@ export function NewMovie(){
   const [newTag, setNewTag] = useState('')
 
   const [title, setTitle] = useState('')
-  const [stars, setStars] = useState('')
+  const [stars, setStars] = useState(0)
   const [description, setDescription] = useState('')
-
 
   function handleAddTag(){
     if(!newTag){
@@ -33,7 +32,6 @@ export function NewMovie(){
   }
   function handleRemoveTag(toDelete){
     setTags(prevState => prevState.filter(tag => tag !== toDelete))
-
   }
   
   function handleBackPage(){
@@ -42,7 +40,7 @@ export function NewMovie(){
 
   async function handleNewMovie(){
     if(stars < 0 || stars > 5 )
-     return alert('Apenas números entre 0 e 5.')
+     return alert('Apenas números inteiros entre 0 e 5.')
   
     if(!title){
       return alert('Preencha o título para cadastrar')
