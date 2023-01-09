@@ -1,4 +1,5 @@
 ## Server Side (BACKEND)
+Para usar o backend:
 ### https://github.com/eriket0107/server-side_CineFlix
 
 > Stage 10: Frontend/Backend -> API RESTful
@@ -10,7 +11,7 @@
 
 ## :file_folder: Projeto
 
-Frontend do projeto RocketMovies. <br>
+Frontend do projeto Cineflix. <br>
 Aplicação para acompanhar tudo que assistir.
 
 ### Para rodar o projeto Front:
