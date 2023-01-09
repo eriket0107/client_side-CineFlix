@@ -5,12 +5,13 @@ export const Container = styled.div`
   grid-template-areas: 
   'header'
   'title'
-  'content'
+  'wrapper'
   ;
   
-  grid-template-rows: 116px auto;
+  grid-template-rows: 116px auto 670px;
   > main{
     display: flex;
+    grid-area: wrapper;
     flex-direction: column;
     margin: 2rem auto 2rem;
     width: 1137px;
@@ -34,7 +35,6 @@ export const Wrapper = styled.div`
   `
 export const Content = styled.div`
     display: flex;
-    grid-area: content;
     flex-direction: row;
     gap: 2.4rem;
     grid-area: content;

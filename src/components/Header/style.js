@@ -1,8 +1,11 @@
 import styled from "styled-components"
 
-export const Container =  styled.div`
-  grid-area: header;
+export const Container =  styled.header`
+  body{
+    position: relative;
+  }
 
+  grid-area: header;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -10,8 +13,9 @@ export const Container =  styled.div`
   padding: 2.4rem 12.3rem;
   gap: 12.8rem;
   height: 11.6rem;
-
+  width: 100vw;
   background: ${({theme})=> theme.COLORS.BACKGROUND_900};
+  position: fixed;
 `
 
 export const Logo = styled.div`
