@@ -50,7 +50,7 @@ export function Profile(){
   return(
     <Container>
       <header>
-        <Link to={-1}>
+        <Link to={'/'}>
           <ButtonText title={'Voltar'} icon={FiArrowLeft} />
         </Link>
       </header>
