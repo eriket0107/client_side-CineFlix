@@ -1,16 +1,19 @@
 ## Server Side (BACKEND)
+Para usar o backend:
 ### https://github.com/eriket0107/server-side_CineFlix
 
-> Stage 10: Frontend/Backend -> API RESTful
+
 
 
 <p align="center">
   <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=49AA26&labelColor=000000">
 </p>
 
+> Stage 10: Frontend/Backend -> API RESTful
+
 ## :file_folder: Projeto
 
-Frontend do projeto RocketMovies. <br>
+Frontend do projeto Cineflix. <br>
 Aplicação para acompanhar tudo que assistir.
 
 ### Para rodar o projeto Front:
@@ -57,3 +60,4 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - ViteJS;
 - JavaScript;
 - ReactJS.
+- Styled Components.
