@@ -15,30 +15,33 @@ Aplicação para acompanhar tudo que assistir.
 ## :page_with_curl: Páginas
 
 Página de login:
-![image](https://user-images.githubusercontent.com/91575045/204478041-a07805f8-f74b-40b0-92f9-6313b768c508.png)
-
+![image](https://user-images.githubusercontent.com/91575045/211342603-19820309-0082-4df2-8614-0dc320c37502.png)
 
 
 Página de cadastro:
-![image](https://user-images.githubusercontent.com/91575045/204478110-21b9ae0f-fb50-4200-9199-c056160ae9b3.png)
+![image](https://user-images.githubusercontent.com/91575045/211342683-33452071-3828-474e-b05b-a17f172b2c37.png)
 
 
 Página home:
-![image](https://user-images.githubusercontent.com/91575045/204473838-4eed095b-a2b1-431f-9971-8c9bb83a8611.png)
+![image](https://user-images.githubusercontent.com/91575045/211344581-19068f15-11cb-4ad0-a3a8-719142f3b5b0.png)
 
 
+Página de preview da Filme:
 
-Página de preview da nota:
-![image](https://user-images.githubusercontent.com/91575045/204474092-46bf4d50-991f-4905-9734-c1df50270749.png)
+![image](https://user-images.githubusercontent.com/91575045/211343825-b8d45905-b7ee-4202-8788-6cb47b9a7512.png)
 
 
 
 Página de perfil:
-![image](https://user-images.githubusercontent.com/91575045/204473963-c4c13707-e786-4233-9663-f57c7eb8199b.png)
+![image](https://user-images.githubusercontent.com/91575045/211343033-518eb40d-d02d-4955-adbc-37905e549263.png)
 
 
 Página de criar nota:
-![image](https://user-images.githubusercontent.com/91575045/204473913-4d66671e-2cba-434a-8b2e-0eaee1a01e8d.png)
+![image](https://user-images.githubusercontent.com/91575045/211342957-0ff0bbf9-7e32-490a-a5d3-1e1b0fe38f0d.png)
+
+Place Holde das Imagens: 
+![image](https://user-images.githubusercontent.com/91575045/211344750-77a773bf-bf6a-40d0-adb6-c1c545e6ca4f.png)
+![image](https://user-images.githubusercontent.com/91575045/211344807-f6c48488-a413-44b5-91bb-03339aa77ed2.png)
 
 
 ## :computer: Tecnologias
